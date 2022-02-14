@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.card-container{
+    width: 330px;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    /* margin-top: 10px; */
+    /* height: 710px; */
+}
+.card-infos{
+    background: rgba(26, 27, 33, 1);
+    width: 100%;
+    padding: 1.3rem 1.3rem .9rem;
+}
+.card-image{
+    width: 100%;
+}
+.card-image img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card--name{
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.card--work-title{
+    width: 100%;
+    text-align: center;
+    font-size: 12.8px;
+    font-weight: 400;
+    color: rgba(243, 191, 153, 1);
+}
+.card--web-links{
+    width: 100%;
+    text-align: center;
+    font-size: 10.8px;
+    padding: .2rem 0;
+}
+.card--web-links a{
+    text-decoration: none;
+    color: rgba(245, 245, 245, 1);
+}
+.card--info-contacts{
+    padding-top: .4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: .8rem;
+}
+.card--info-contacts button{
+    padding: .5rem .9rem .5rem .9rem;
+    border-radius: 2px;
+    flex: 1 1 100%;
+    border: none;
+}
+.contact-2{
+    padding: .5rem .8rem .5rem .7rem;
+    background: rgba(80, 147, 226, 1);
+}
+
+.card-slots{
+    width: 100%;
+    padding-top: 1.2rem;
+}
+.card--slot{
+    width: 100%;
+    padding-bottom: .7rem;
+}
+.card--slot-title{
+    width: 100%;
+    color: rgba(243, 191, 153, 1);
+    padding-bottom: .3rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.card--slot-texts{
+    color: rgba(255, 255, 255, .8);
+    font-size: .79rem;
+}
